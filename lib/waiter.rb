@@ -19,7 +19,7 @@ class Waiter
   
   def waiters
   meals.map do |meal|
-    meal.waiter == self 
+    meal.waiter
   end
 end
 
