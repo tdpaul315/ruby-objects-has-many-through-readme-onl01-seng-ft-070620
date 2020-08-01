@@ -21,5 +21,6 @@ class Waiter
   meals.map do |meal|
     meal.waiter == self 
   end
+end
 
 end
